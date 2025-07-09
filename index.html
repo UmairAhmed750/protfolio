@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4c46ea957.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text"> 
+                
+                <div class="header-text-1">
+                <p class="front-end">Frontend Developer</p>
+                <h1>Hi,I'm <span>Umair Ahmed</span></h1>
+                 </div>
+                <div class="header-text-2">
+                    <img src="./images/image-2.jpg">
+                </div>
+
+           
+            </div>
+    </div>
+                                                    <!-- .....about....... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/image-1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p> A Front-End Developer is responsible for creating the visual and interactive aspects of
+ websites and web applications. They use technologies like HTML, CSS, and JavaScript to
+ build user interfaces that are responsive, accessible, and optimized for performance. Front
+End Developers collaborate closely with designers and back-end developers to ensure
+ seamless integration and a smooth user experience. They often work with frameworks like
+ React, Vue.js, or Angular, and use tools such as Webpack, Git, and Figma in their
+ development workflow.</p>
+ 
+ <div class="tab-tittles">
+    <p class="tab-links active-links" onclick="opentab('skills')">Skils</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+ 
+ </div>
+
+ <div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Html</span></li>
+        <li><span>Css</span></li>
+        <li><span>Jawascript</span></li>
+        <li><span>Es6</span></li>
+        <li><span>Bootstrap</span></li>
+        <li><span>Tailwind Css</span></li>
+        <li><span>React js</span></li>
+        <li><span>Version Control Git</span></li>
+    </ul>
+ </div>
+ <div class="tab-contents" id="experience">
+    <ul>
+        <li><span>1 YEAR</span></li>
+    </ul>
+ </div><div class="tab-contents" id="education">
+    <ul>
+        <li><span>Inter complete</span></li>
+        <li><span>Hafiz-e-quran</span></li>
+        <li><span>Web and App Mobile App Development (SMIT)</span></li>
+    </ul>
+ </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- services -->
+      <div id="services">
+        <div class="container">
+             <h1 class="sub-tittle">My Services</h1>
+             <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>1. What kind of services are you offering?</h2>
+                    <p>(e.g., web development, photography, consulting, etc.)</p>
+                    <a href="learn more">Learn more</a>
+                </div>
+                <div>
+                      <i class="fa-solid fa-laptop-code"></i>
+                    <h2> What technologies do you want to use for the frontend?</h2>
+                    <p>HTML/CSS/JavaScript only? <br> A framework like React, Vue, or Angular?</p>
+                    <a href="learn more">Learn more</a>
+                </div>
+                <div>
+                     <i class="fa-solid fa-file-code"></i>
+                    <h2>Do you want a specific style or layout?</h2>
+                    <p>Cards, list, or grid view? <br>Light or dark theme? <br>Any branding colors?</p>
+                    <a href="learn more" onclick="document.location=''">Learn more</a>
+                </div>
+             </div>
+        </div>
+      </div>
+      <!-- protfolio -->
+
+      <div id="protfolio">
+        <div class="container">
+             <h1 class="sub-tittle">My Work</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="./images/img3.jpg" >
+                    <div class="layer">
+                        <h3>saltn paper</h3>
+                        <p>Salt 'n Pepper is a well-known Pakistani restaurant chain, recognized for its diverse menu featuring Pakistani, Continental, and Chinese cuisine</p>
+                        <a href="#" onclick="document.location= 'https://saltn-peper.netlify.app/'"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/img-7.webp" >
+                     <div class="layer">
+                        <h3>Pepsi web</h3>
+                        <p>Pepsi is a carbonated cola-flavored soft drink</p>
+                        <a href="#"  onclick="document.location= 'https://astonishing-tartufo-daeece.netlify.app/'" ><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>  
+
+                <div class="work">
+                    <img src="./images/img5.jpg" >
+                     <div class="layer">
+                        <h3>Quiz App</h3>
+                        <p>A quiz app is a software application designed to test users' knowledge through a series of questions.</p>
+                        <a href="#" onclick="document.location= 'https://monumental-baklava-7e5a63.netlify.app/'"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+             </div>
+             <a  href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <!-- contact -->
+
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> umairahmed29222@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 03118953057</p>
+                    <div class="social-icon">
+                        <a href="#" onclick="document.location= 'https://github.com/UmairAhmed750'"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" onclick="document.location= 'https://www.linkedin.com/in/umair-ahmed-b79689312/'"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" onclick="document.location= 'https://www.instagram.com/umairahmed909/'"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" onclick="document.location= 'https://www.facebook.com/umair.ahmed.335794'"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="./images/front-end-developer.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Sumbit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+      </div>
+      <script>
+    function opentab(tabname) {
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (let link of tablinks) {
+            link.classList.remove("active-links");
+        }
+        for (let content of tabcontents) {
+            content.classList.remove("active-tab");
+        }
+
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-links");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right ="0";
+
+    }
+     function closemenu(){
+        sidemenu.style.right ="-200px";
+        
+    }
+</script>
+
+   
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzBbe6fOfdkhRcb4uKkCc7-voCrLaqPQrJtTYurZAhGoz-1IxuFdbrdQU-oGQBx01av/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        // msg.innerHTML="Message sent successfully"
+         alert("Message sent successfully");
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },1000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+ 
+</script>
+</body>
+</html>
+
+
