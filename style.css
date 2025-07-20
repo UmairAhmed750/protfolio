@@ -58,6 +58,9 @@ nav ul li a:hover::after{
    gap: 6rem;
    
 }
+.header-text-1 span{
+    color: #ff004f;
+}
 .header-text-2 img{
     border-radius: 15px;
 }
@@ -506,6 +509,3 @@ nav .fa-bars, nav .fa-square-xmark {
         font-size: 14px;
     }
 }
-/* https://monumental-baklava-7e5a63.netlify.app/' */
-/* https://saltn-peper.netlify.app/ */
-/* https://saltn-peper.netlify.app/ */
